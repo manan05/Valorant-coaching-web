@@ -1,0 +1,22 @@
+/*body header h1 is going to have max priority as it is the most specific
+It doesn't matter with the place of the text present whether it is on top or bottom
+*/
+
+
+
+body {
+    background:rgba(200, 0, 100, 0.5) ;
+    color: gray;
+}
+
+body > header > h1 {
+    background: white;
+}
+
+h3, h4, h1, h2{
+    color: black;
+}
+
+body h3 {
+    color: blueviolet;
+}
