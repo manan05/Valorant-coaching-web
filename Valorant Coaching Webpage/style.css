@@ -6,7 +6,7 @@ It doesn't matter with the place of the text present whether it is on top or bot
 
 body {
     background:rgba(200, 0, 100, 0.5) ;
-    color: gray;
+    color: black;
 }
 
 body > header > h1 {
@@ -15,8 +15,4 @@ body > header > h1 {
 
 h3, h4, h1, h2{
     color: black;
-}
-
-body h3 {
-    color: blueviolet;
 }
